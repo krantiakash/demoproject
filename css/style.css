@@ -1,0 +1,90 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+img, video, picture {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: #000;
+}
+
+.wrapper {
+  height: 100%;
+  min-height: 100vh;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-inline: auto;
+}
+
+.header {
+  background: #282a36;
+  color: #fff;
+  height: 6.5rem;
+}
+
+.header #menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header #menu a {
+  color: #fff;
+}
+
+.main {
+  height: calc(100vh - 6.5rem);
+}
+
+.main .container {
+  height: 100%;
+}
+
+.main .container .left_section,
+.main .container .right_section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: blue;
+}
+
+.main .container .left_section {
+  background: #f48044;
+}
+
+.main .container .right_section {
+  background: #f46525;
+}
+
+/*# sourceMappingURL=style.css.map */
